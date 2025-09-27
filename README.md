@@ -50,7 +50,7 @@ sudo apt install sqlite3
 
 ### 3. Create SQLite Database
 ```
-cd ~/Documents/oldest-businesses-analysis
+cd ~/Documents/oldest-business-analysis
 sqlite3 oldest_businesses.db
 ```
 
