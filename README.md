@@ -33,7 +33,7 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 git clone https://github.com/nathanjbaron-DE/oldest-businesses-analysis.git
 
 # Go into the project folder
-cd oldest-businesses-analysis
+cd oldest-business-analysis
 ```
 
 ### 2. Install SQLite
