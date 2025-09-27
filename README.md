@@ -26,8 +26,17 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 - `README.md` – Project documentation  
 
 ## How to Run
+### 1. Clone the Project
+``` cd ~/Documents
 
-### 1. Install SQLite
+# Clone GitHub repository
+git clone https://github.com/nathanjbaron-DE/oldest-businesses-analysis.git
+
+# Go into the project folder
+cd oldest-businesses-analysis
+```
+
+### 2. Install SQLite
 ```
 # Mac
 brew install sqlite
@@ -39,13 +48,13 @@ brew install sqlite
 sudo apt install sqlite3
 ```
 
-### 2. Create SQLite Database
+### 3. Create SQLite Database
 ```
 cd ~/Documents/oldest-businesses-analysis
 sqlite3 oldest_businesses.db
 ```
 
-### 3. Import CSV Files into SQLite
+### 4. Import CSV Files into SQLite
 ```
 -- Create tables
 CREATE TABLE countries (
@@ -73,7 +82,7 @@ CREATE TABLE categories (
 .import ./data/categories.csv categories
 ```
 
-### 4. Run SQL Queries
+### 5. Run SQL Queries
 ```
 -- Oldest business per continent
 SELECT c.continent, c.country, b.business, b.year_founded
@@ -102,7 +111,7 @@ GROUP BY c.continent, cat.category
 ORDER BY c.continent, cat.category;
 ```
 
-### 5. Exit SQLite
+### 6. Exit SQLite
 ```
 .exit
 ```
