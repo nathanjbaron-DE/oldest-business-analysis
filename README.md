@@ -17,6 +17,7 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 - CSV files as input datasets  
 
 ## Files
+- `setup.sql` - SQL setup before quering data
 - `queries.sql` – SQL queries to extract insights  
 - `data/` – Sample CSV datasets  
   - `countries.csv`  
