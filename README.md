@@ -30,7 +30,7 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 ``` cd ~/Documents
 
 # Clone GitHub repository
-git clone https://github.com/nathanjbaron-DE/oldest-businesses-analysis.git
+git clone https://github.com/nathanjbaron-DE/oldest-business-analysis.git
 
 # Go into the project folder
 cd oldest-business-analysis
