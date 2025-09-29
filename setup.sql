@@ -22,8 +22,13 @@ CREATE TABLE categories (
     category TEXT
 );
 
--- Import CSVs
+-- Import CSVs (headers included as first row)
 .mode csv
 .import ./data/countries.csv countries
 .import ./data/businesses.csv businesses
 .import ./data/categories.csv categories
+
+-- Remove header rows after import
+DELETE FROM countries WHERE country_code = 'country_code';
+DELETE FROM businesses WHERE business = 'business';
+DELETE FROM categories WHERE category_code = 'category_code';
