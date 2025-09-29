@@ -1,3 +1,8 @@
+-- Drop tables if they exist
+DROP TABLE IF EXISTS countries;
+DROP TABLE IF EXISTS businesses;
+DROP TABLE IF EXISTS categories;
+
 -- Create tables
 CREATE TABLE countries (
     country_code TEXT PRIMARY KEY,
@@ -17,7 +22,7 @@ CREATE TABLE categories (
     category TEXT
 );
 
--- Import CSV files
+-- Import CSVs
 .mode csv
 .import ./data/countries.csv countries
 .import ./data/businesses.csv businesses
