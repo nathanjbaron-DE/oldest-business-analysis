@@ -32,7 +32,8 @@ cd ~/Documents
 ```
 # Clone GitHub repository
 git clone https://github.com/nathanjbaron-DE/oldest-business-analysis.git
-
+```
+```
 # Go into the project folder
 cd oldest-business-analysis
 ```
