@@ -27,7 +27,8 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 
 ## How to Run
 ### 1. Clone the Project
-``` cd ~/Documents
+```
+cd ~/Documents
 
 # Clone GitHub repository
 git clone https://github.com/nathanjbaron-DE/oldest-business-analysis.git
