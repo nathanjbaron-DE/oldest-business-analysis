@@ -14,9 +14,9 @@ CREATE TABLE countries (
 
 CREATE TABLE businesses (
     business TEXT,
-    country_code TEXT,
     year_founded INTEGER,
-    category_code TEXT
+    category_code TEXT,
+    country_code TEXT
 );
 
 CREATE TABLE categories (
