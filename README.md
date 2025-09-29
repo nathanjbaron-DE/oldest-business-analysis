@@ -28,7 +28,8 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 ### 1. Clone the Project
 ```
 cd ~/Documents
-
+```
+```
 # Clone GitHub repository
 git clone https://github.com/nathanjbaron-DE/oldest-business-analysis.git
 
@@ -37,14 +38,19 @@ cd oldest-business-analysis
 ```
 
 ### 2. Install SQLite
+#### Mac
 ```
-# Mac
 brew install sqlite
+```
 
-# Windows
-# Download installer from https://www.sqlite.org/download.html
+#### Windows
+##### Download installer from 
+```
+https://www.sqlite.org/download.html
+```
 
-# Linux
+#### Linux
+```
 sudo apt install sqlite3
 ```
 
