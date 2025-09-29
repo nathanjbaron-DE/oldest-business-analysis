@@ -17,8 +17,7 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 - CSV files as input datasets  
 
 ## Files
-- `setup.sql` - SQL setup before quering data
-- `queries.sql` – SQL queries to extract insights  
+- `run_all.sql` - Imports CSV Files, runs SQL queries, and output as CSVs
 - `data/` – CSV datasets  
   - `countries.csv`  
   - `businesses.csv`  
@@ -55,7 +54,7 @@ cd ~/Documents/oldest-business-analysis
 sqlite3 oldest_businesses.db
 ```
 
-### 4. Import CSV Files, run SQL queries, and output as CSVs
+### 4. Run SQL file
 ```
 .read run_all.sql
 ```
