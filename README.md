@@ -17,7 +17,7 @@ The project uses SQLite and CSV files, so no database setup or Python is require
 - CSV files as input datasets  
 
 ## Files
-- `run_all.sql` - Imports CSV Files, runs SQL queries, and output as CSVs
+- `run_all.sql` - Imports CSV Files, runs SQL queries, and outputs as CSVs
 - `data/` – CSV datasets  
   - `countries.csv`  
   - `businesses.csv`  
